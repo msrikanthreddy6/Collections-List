@@ -55,8 +55,15 @@ public class Employee {
 	}
 	
 	public static void main(String[] args) {
-		LinkedList<Employee> emp=new LinkedList<Employee>();
-		emp.add(0, emp.element().);
+		Employee e=new Employee(101, "Srikanth", 31, 650000);
+		e.setId(102);
+		e.setName("Srikanth");
+		e.setAge(30);
+		e.setSalary(65000);
+		LinkedList<Employee> list=new LinkedList<>();
+		list.add(e);
+		System.out.println(list);
+		
 	}
 	
 	
