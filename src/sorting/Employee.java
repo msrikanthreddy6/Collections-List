@@ -1,5 +1,7 @@
 package sorting;
 
+import java.util.LinkedList;
+
 public class Employee {
 
 	private int id;
@@ -52,6 +54,10 @@ public class Employee {
 		return "Employee [id=" + id + ", name=" + name + ", age=" + age + ", salary=" + salary + "]";
 	}
 	
+	public static void main(String[] args) {
+		LinkedList<Employee> emp=new LinkedList<Employee>();
+		emp.add(0, emp.element().);
+	}
 	
 	
 }
